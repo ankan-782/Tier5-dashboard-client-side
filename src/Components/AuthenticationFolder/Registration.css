@@ -1,0 +1,33 @@
+.registration-content {
+    width: 90%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.password-field-registration {
+    position: relative;
+}
+
+.show-hide-toggle {
+    color: rgb(92, 92, 92);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login-divert {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+.login-divert:hover {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+    .registration-content {
+        max-width: 540px;
+        padding: 50px;
+    }
+}

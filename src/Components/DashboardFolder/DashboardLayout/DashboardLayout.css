@@ -1,0 +1,12 @@
+.offcanvas-button {
+    position: fixed;
+    left: 10px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.offcanvas {
+    background-color: rgb(232,243,238);
+}

@@ -1,0 +1,43 @@
+.login-content {
+    width: 90%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.password-field-login {
+    position: relative;
+}
+
+.show-hide-toggle {
+    color: rgb(92, 92, 92);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.reset-pass {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+.reset-pass:hover {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+.register-divert {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+.register-divert:hover {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+    .login-content {
+        max-width: 540px;
+        padding: 50px;
+    }
+}
