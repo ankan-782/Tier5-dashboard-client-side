@@ -19,7 +19,7 @@ const AdminRoute = ({ children }) => {
             </>
         );
     }
-    if (user?.email) {
+    if (user?.email && admin) {
         return children;
     }
     return <Navigate to="/login" state={{ from: location }} />;

@@ -58,8 +58,8 @@ const Login = (props) => {
                 </form>
                 <Link to='/login' className='reset-pass d-block text-center mb-2'>Forgot Password ?</Link>
                 <Link to='/registration' className='register-divert d-block text-center'>New User? Click to register</Link>
-                {backendError && (<p className='mt-3 text-danger fw-bold'>{backendError}</p>)}
-                {error && (<p className='mt-3 text-danger fw-bold'>{error}</p>)}
+                {backendError && (<p className='mt-3 text-danger text-center fw-bold'>{backendError}</p>)}
+                {error && (<p className='mt-3 text-danger text-center fw-bold'>{error}</p>)}
             </div>
         </div>
     );
