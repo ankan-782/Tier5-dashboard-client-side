@@ -18,21 +18,21 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <NavLink
-                            to='home'
+                            to='/home'
                             onClick={() => setNavActive('home')}
                             className={`${navActive === 'home' ? 'text-success fw-bold' : 'text-dark'} me-4 text-decoration-none`}
                         >
                             Home
                         </NavLink>
                         <NavLink
-                            to='dashboard'
+                            to='/dashboard'
                             onClick={() => setNavActive('dashboard')}
                             className={`${navActive === 'dashboard' ? 'text-success fw-bold' : 'text-dark'} me-4 text-decoration-none`}
                         >
                             Dashboard
                         </NavLink>
                         <NavLink
-                            to='profile'
+                            to='/profile'
                             onClick={() => setNavActive('profile')}
                             className={`${navActive === 'profile' ? 'text-success fw-bold' : 'text-dark'} me-4 text-decoration-none`}
                         >
@@ -52,7 +52,7 @@ const Navbar = () => {
                                 </button>
                                 :
                                 <NavLink
-                                    to='login'
+                                    to='/login'
                                     onClick={() => setNavActive('login')}
                                     className={`${navActive === 'login' ? 'text-success fw-bold' : 'text-dark'} text-decoration-none`}
                                 >

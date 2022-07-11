@@ -43,6 +43,7 @@ const useAuthenticationFunctionality = () => {
             .then((result) => {
                 // alert('successfully logged in');
                 const destination = location?.state?.from || '/';
+                console.log(destination);
                 navigate(destination);
                 setError('');
                 setBackendError('');
@@ -57,7 +58,7 @@ const useAuthenticationFunctionality = () => {
     // Sign up or Registration User
     const registrationUser = (email, username, name, age, gender, country, device, password, navigate) => {
         setIsLoading(true);
-        //save city corporation user to the database
+        //save user to the database when registration
         saveUser(email, username, name, age, gender, country, device, 'POST');
 
         createUserWithEmailAndPassword(auth, email, password)
