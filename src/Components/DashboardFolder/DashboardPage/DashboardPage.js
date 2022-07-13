@@ -15,14 +15,14 @@ const DashboardPage = (props) => {
 
     //load all users data except admin users
     useEffect(() => {
-        fetch(`http://localhost:5000/users?page=${page}&&size=${size}&&property=${property}&&order=${order}`)
+        fetch(`https://frozen-thicket-45554.herokuapp.com/users?page=${page}&&size=${size}&&property=${property}&&order=${order}`)
             .then(res => res.json())
             .then(data => setUsers(data));
     }, [success, page, size, property, order]);
 
     // load specific user for update
     const updateUser = (id) => {
-        fetch(`http://localhost:5000/users/${id}`)
+        fetch(`https://frozen-thicket-45554.herokuapp.com/users/${id}`)
             .then(res => res.json())
             .then(data => setSpecificUser(data));
     }
@@ -31,7 +31,7 @@ const DashboardPage = (props) => {
     const deleteUser = (id) => {
         const proceed = window.confirm('Are you sure, you want to delete this user?');
         if (proceed) {
-            fetch(`http://localhost:5000/users/delete/${id}`, {
+            fetch(`https://frozen-thicket-45554.herokuapp.com/users/delete/${id}`, {
                 method: "DELETE",
             })
                 .then(res => res.json())
@@ -83,7 +83,7 @@ const DashboardPage = (props) => {
 
     const handleUpdateUser = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:5000/users/update/${specificUser._id}`, {
+        fetch(`https://frozen-thicket-45554.herokuapp.com/users/update/${specificUser._id}`, {
             method: "PUT",
             headers: {
                 'content-type': 'application/json'

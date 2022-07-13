@@ -103,7 +103,7 @@ const useAuthenticationFunctionality = () => {
 
         // add user to the database from dashboard
         const user = { email, username, name, age, gender, country, device, password };
-        fetch('http://localhost:5000/users/addAnotherUser', {
+        fetch('https://frozen-thicket-45554.herokuapp.com/users/addAnotherUser', {
             method: 'POST',
             headers: {
                 'authorization': `Bearer ${token}`,
@@ -142,7 +142,7 @@ const useAuthenticationFunctionality = () => {
     // save user to the database when registration
     const saveUser = (email, username, name, age, gender, country, device, method) => {
         const user = { email, username, name, age, gender, country, device };
-        fetch('http://localhost:5000/users', {
+        fetch('https://frozen-thicket-45554.herokuapp.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'
@@ -163,7 +163,7 @@ const useAuthenticationFunctionality = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/users/checkAdmin/${user.email}`)
+        fetch(`https://frozen-thicket-45554.herokuapp.com/users/checkAdmin/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin));
     }, [user.email])

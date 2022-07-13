@@ -13,7 +13,7 @@ const AddAdminUser = () => {
 
     const handleAdminSubmit = e => {
         const user = { email };
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://frozen-thicket-45554.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
                 'authorization': `Bearer ${token}`,
@@ -59,8 +59,8 @@ const AddAdminUser = () => {
                     />
                 </div>
                 <button type="submit" className="form-btn p-3">Make Admin</button>
-            {backendError && (<p className='mt-3 text-danger text-center fw-bold'>{backendError}</p>)}
-            {success && (<p className='mt-3 text-success text-center fw-bold'>{success}</p>)}
+                {backendError && (<p className='mt-3 text-danger text-center fw-bold'>{backendError}</p>)}
+                {success && (<p className='mt-3 text-success text-center fw-bold'>{success}</p>)}
             </form>
         </div>
     );

@@ -1,4 +1,11 @@
-#The System design approach of this website is given below:
+Deployment instructions for this website:
+* dashbord-client-side: https://tier5-dashboard.web.app/ (firebase)
+  screenshots: ![image](https://user-images.githubusercontent.com/86654170/178763127-b31278e0-f27e-4831-8034-c3b0af376ea4.png)
+
+* dashboard-server-side: https://frozen-thicket-45554.herokuapp.com/ (Heroku)
+  screenshots: ![image](https://user-images.githubusercontent.com/86654170/178775672-084c5ac7-490e-483d-90bd-cec66bc9c0e2.png)
+
+### **The System design approach of this website is given below:**
 
 Functionality about this website:
 
@@ -76,10 +83,8 @@ Functionality about this website:
 * When any user login to the website, the user can not go to the login page again. It is done by authentication route.
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178332570-01467ef4-9aab-4556-8f11-aeb2e6ce296b.png)
 
+* Users list in firebase authentication
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178757076-4c007721-6ab2-41ae-b8d2-267400ee7eb2.png)
 
-Deployment instructions for this website:
-* dashbord-client-side:  (firebase)
-  screenshots: 
-
-* dashboard-server-side:  (Heroku)
-  screenshots: 
+* Users list in MongoDb
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178758705-9eba8cee-9bbd-4b36-8b33-3177ce15bca3.png)
