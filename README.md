@@ -5,6 +5,11 @@ Deployment instructions for this website:
 * dashboard-server-side: https://frozen-thicket-45554.herokuapp.com/ (Heroku)
   screenshots: ![image](https://user-images.githubusercontent.com/86654170/178775672-084c5ac7-490e-483d-90bd-cec66bc9c0e2.png)
 
+* Site link: https://tier5-dashboard.web.app/
+  dashboard admin details:
+  email: admin@admin.com
+  password: admin0
+
 ### **The System design approach of this website is given below:**
 
 Functionality about this website:
