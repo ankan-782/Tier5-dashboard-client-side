@@ -91,3 +91,6 @@ Functionality about this website:
 
 * Users list in MongoDb
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178758705-9eba8cee-9bbd-4b36-8b33-3177ce15bca3.png)
+
+* Here I could not implement DAU/WAU/MAU functionality for real time dashboard. I tried a lot by searching many websites and thinking by myself. I will definitely learn
+  this functionality and will implement this of my another project. 
