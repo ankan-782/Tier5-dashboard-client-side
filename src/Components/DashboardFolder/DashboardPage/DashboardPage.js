@@ -113,8 +113,8 @@ const DashboardPage = (props) => {
                                 </div>
                             )
                             : <div>
-                                <div className='d-flex justify-content-between align-items-center mb-3'>
-                                    <div className='d-flex justify-content-between align-items-center'>
+                                <div className='mt-3 mt-lg-0 d-lg-flex justify-content-between align-items-center mb-3'>
+                                    <div className='d-flex justify-content-lg-between align-items-center'>
                                         <p className='mb-0 me-3'>Rows per page: </p>
                                         <div class="btn-group">
                                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">{size}</button>
@@ -126,7 +126,7 @@ const DashboardPage = (props) => {
                                         </div>
                                     </div>
 
-                                    <nav aria-label="Page navigation example">
+                                    <nav className='mt-3 mt-lg-0' aria-label="Page navigation example">
                                         <ul className="pagination">
                                             <li className="page-item">
                                                 <button
@@ -201,8 +201,10 @@ const DashboardPage = (props) => {
                                                         <td>{user.country}</td>
                                                         <td>{user.device}</td>
                                                         <td>
-                                                            <button title='Delete user' className="btn btn-danger rounded-3 me-2" onClick={() => deleteUser(user._id)}><i className="fas fa-trash-alt"></i></button>
-                                                            <button title='Update user' className="btn btn-warning rounded-3" onClick={() => updateUser(user._id)} data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="fa-solid fa-gear"></i></button>
+                                                            <div className='d-flex'>
+                                                                <button title='Delete user' className="btn btn-danger rounded-3 me-2" onClick={() => deleteUser(user._id)}><i className="fas fa-trash-alt"></i></button>
+                                                                <button title='Update user' className="btn btn-warning rounded-3" onClick={() => updateUser(user._id)} data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="fa-solid fa-gear"></i></button>
+                                                            </div>
                                                             {/* modal */}
                                                             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                                 <div className="modal-dialog modal-dialog-centered">
