@@ -1,12 +1,27 @@
-The System design approach of this website is given below:
+#The System design approach of this website is given below:
 
 Functionality about this website:
 
 * Here, I have created a dashboard system for managing users.
-  screenshot: 
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178746173-6985e13f-79f0-4bbe-a0b2-215963005567.png)
+
+* Here, In dashboard, I have implemented pagination system. Here every page, user info loads with multiple rows. By selecting row number from dropdown menu Admin 
+  can see multiple rows of user. 
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178750431-bff72a39-e61f-4c63-90b9-6207d7fa9693.png)
+
+* Sorting system has been implemented in dashboard system with multiple parameters. Admin can see rows of user by name sorting, gender sorting, age sorting. Also
+  Admin can see rows by ascending and descending order also.
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178752554-b3ff8e9c-34bd-4957-abbc-8d54dd6baa62.png)
+
+*** Has been implemented unique username checking functionality for brand new user registration, for 'add another user' via admin, for updating the already added users
+    information. I handled every possible situation of checking unique username.
+    screenshot: ![image](https://user-images.githubusercontent.com/86654170/178583879-867872c0-45ed-4281-952b-9137fb5f4604.png)
+    screenshot: ![image](https://user-images.githubusercontent.com/86654170/178584148-c39571e3-95f6-4258-87cb-87c861a78fb8.png)
 
 * I have created 30 dummy users and stored in mongo database.
   screenshot:
+
+* I have implemented add, remove, update of user information for the dashboard.
 
 * At first, I have created a authentication system where user can register themselves by providing some information.
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178319551-5c8c26e9-b084-4649-addf-93d25d1ed9cc.png)
@@ -33,7 +48,7 @@ Functionality about this website:
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178322938-f2d73043-5b7b-432e-9487-f5cc4e862e84.png)
 
 * Only an admin user can navigate all 3 pages including dashboard from navbar.
-  screenhsot: ![image](https://user-images.githubusercontent.com/86654170/178323901-fffd7253-af41-4904-b08d-5a8e534796de.png)
+  screenshot: ![image](https://user-images.githubusercontent.com/86654170/178323901-fffd7253-af41-4904-b08d-5a8e534796de.png)
 
 * In Dashboard page, I have created 3 pages. An admin user can go all 3 pages. Here 3 pages are Add another user, Add another admin user, and main dashboard page.
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178328621-c531a27b-4e40-4f51-91ce-ca3202652890.png)
@@ -60,3 +75,11 @@ Functionality about this website:
 
 * When any user login to the website, the user can not go to the login page again. It is done by authentication route.
   screenshot: ![image](https://user-images.githubusercontent.com/86654170/178332570-01467ef4-9aab-4556-8f11-aeb2e6ce296b.png)
+
+
+Deployment instructions for this website:
+* dashbord-client-side:  (firebase)
+  screenshots: 
+
+* dashboard-server-side:  (Heroku)
+  screenshots: 

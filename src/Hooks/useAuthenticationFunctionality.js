@@ -163,7 +163,7 @@ const useAuthenticationFunctionality = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
+        fetch(`http://localhost:5000/users/checkAdmin/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin));
     }, [user.email])

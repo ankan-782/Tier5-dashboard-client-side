@@ -40,7 +40,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'name' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Name"
+                                    placeholder="Your Name"
                                     autoComplete="on"
                                     required
                                 />
@@ -98,7 +98,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'country' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Country"
+                                    placeholder="Your Country"
                                     autoComplete="on"
                                     required
                                 />
@@ -116,7 +116,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'device' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Device"
+                                    placeholder="Your Device"
                                     autoComplete="on"
                                     required
                                 />
@@ -136,7 +136,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'username' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Username"
+                                    placeholder="Username"
                                     autoComplete="on"
                                     required
                                 />
@@ -154,7 +154,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'email' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Email Id"
+                                    placeholder="Email Id"
                                     autoComplete="on"
                                     required
                                 />
@@ -174,7 +174,7 @@ const Registration = (props) => {
                                         }}
                                         type={showPassword ? 'text' : 'password'}
                                         className={`${inputActive === 'password' && "inputActive"} input-bg border-0 p-3`}
-                                        placeholder="Users Password"
+                                        placeholder="Password"
                                         autoComplete="on"
                                         required
                                     />
@@ -235,7 +235,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'name' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Name"
+                                    placeholder="Your Name"
                                     autoComplete="on"
                                     required
                                 />
@@ -294,7 +294,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'country' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Country"
+                                    placeholder="Your Country"
                                     autoComplete="on"
                                     required
                                 />
@@ -313,7 +313,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'device' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Device"
+                                    placeholder="Your Device"
                                     autoComplete="on"
                                     required
                                 />
@@ -332,7 +332,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'username' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Username"
+                                    placeholder="Username"
                                     autoComplete="on"
                                     required
                                 />
@@ -351,7 +351,7 @@ const Registration = (props) => {
                                         setSuccess('');
                                     }}
                                     className={`${inputActive === 'email' && "inputActive"} input-bg border-0 p-3`}
-                                    placeholder="Users Email Id"
+                                    placeholder="Email Id"
                                     autoComplete="on"
                                     required
                                 />
@@ -371,7 +371,7 @@ const Registration = (props) => {
                                         }}
                                         type={showPassword ? 'text' : 'password'}
                                         className={`${inputActive === 'password' && "inputActive"} input-bg border-0 p-3`}
-                                        placeholder="Users Password"
+                                        placeholder="Password"
                                         autoComplete="on"
                                         required
                                     />
